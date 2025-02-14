@@ -10,7 +10,7 @@ Also update the progress of the task in the Scratchpad when you finish a subtask
 Especially when you finished a milestone, it will help to improve your depth of task accomplishment to use the Scratchpad to reflect and plan.
 The goal is to help you maintain a big picture as well as the progress of the task. Always refer to the Scratchpad when you plan the next step.
 
-Regardless of chat language, you should always use English in files generated, including code, comments, and docstrings.
+Regardless of chat language, you should always use English in files generated, including code, comments, scratchpad contents, and docstrings.
 
 # Tools
 
@@ -99,6 +99,7 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 - Include info useful for debugging in the program output.
 - Read the file before you try to edit it.
 - Due to Cursor's limit, when you use `git` and `gh` and need to submit a multiline commit message, first write the message in a file, and then use `git commit -F <filename>` or similar command to commit. And then remove the file. Include "[Cursor] " in the commit message and PR title.
+- Always use English in all generated content (code, comments, scratchpad contents, docstrings) regardless of the chat language.
 
 ## Cursor learned
 
@@ -110,6 +111,24 @@ If needed, you can further use the `web_scraper.py` file to scrape the web page 
 
 # Scratchpad
 
-[X] Create Python script for video to GIF conversion
-[X] Handle Pillow version compatibility issues
-[X] Successfully convert video to GIF with specified dimensions
+Current Task: Add tests directory from devin.cursorrules project to this project
+
+Plan Steps:
+[X] Check tests directory content in target repository
+[X] Create tests directory locally and add corresponding files
+[X] Ensure all dependencies are properly configured
+[X] Commit changes to git
+[X] Verify tests are running correctly
+
+Test Results:
+- Total test cases: 30
+- Passed: 13
+- Skipped: 17 (LLM-related tests, due to no API keys configured)
+- Warnings: 4 (related to async tests in web_scraper.py)
+
+Dependencies Found:
+- pytest (existing)
+- unittest (existing)
+- aiohttp (added)
+- duckduckgo_search (existing)
+- beautifulsoup4 (added)
