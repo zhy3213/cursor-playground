@@ -91,6 +91,18 @@ Snippet: This is a snippet of the search result
 ```
 If needed, you can further use the `web_scraper.py` file to scrape the web page content.
 
+# Project Structure
+
+## Core Tools (in `tools/`)
+- `llm_api.py` (9.1KB): LLM integration with multiple providers
+- `web_scraper.py` (6.9KB): Web page content scraping
+- `search_engine.py` (2.8KB): Web search functionality
+- `screenshot_utils.py` (2.1KB): Web page screenshot capture and verification
+
+## Example Projects (in `playgrounds/`)
+- `video2gif/`: Video to GIF conversion tools
+- `video_transcriber/`: Video transcription tools
+
 # Lessons
 
 ## User Specified Lessons
