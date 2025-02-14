@@ -1,7 +1,7 @@
 # cursor-playground
 
 
-A Cursor-powered AI development environment with advanced agentic capabilities.
+My Cursor-powered AI development environment with advanced agentic capabilities. AI generated small projects are in `./playgrounds`.
 
 
 ## Quick Start
@@ -95,6 +95,10 @@ Note: Basic functionality works without API keys. Advanced features (like multim
 - `.devcontainer/`: VS Code development container configuration
 - `.vscode.example/`: Recommended VS Code settings
 - `.github/`: CI/CD workflows
+
+## Acknowledgments
+
+This project is powered by [devin.cursorrules](https://github.com/grapeot/devin.cursorrules), which provides the advanced agentic AI capabilities to Cursor IDE. Thanks to their excellent work in making Devin-like features accessible to everyone.
 
 ## License
 
